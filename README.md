@@ -1,5 +1,4 @@
-# thermal-models
-Thermal models for Odroid XU3
+# Thermal models for Odroid XU3
 
 The cpufreq_ondemand.c file is integrated into to the Linux kernel to perform runtime prediction of the temperature.
 Specifically, the function "predict_temp_for_1s()" is used to perform the prediction. Note that all the values are scaled, as floating point arithmetic is not available in the kernel. 
